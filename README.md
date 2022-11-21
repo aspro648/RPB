@@ -4,14 +4,18 @@ Rapid Prototyping Board
 ![Picture](project.png) 
 
 What is it?
+-----------
 
 - Basically a 32U4 based Arduino with two card-edge slots instead of a shield layout.
 
 Why?
+----
 
 - It started out as a 20-pin cable tester (Use Case 1), but morphed into a more generic prototyping system.
+- Allows you to quickly prototype systems out on inexpensive small PCBs
 
 Features:
+---------
 
 - USB programable Atmega 32U4.
 - 20 i/o lines on card 1 position.

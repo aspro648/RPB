@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L project:ATMEGA32U4-AU U1
-U 1 1 5B3FD92A
-P 7400 2850
-F 0 "U1" H 6450 4550 50  0000 C CNN
-F 1 "ATMEGA32U4-AU" H 8100 1350 50  0000 C CNN
-F 2 "footprints:TQFP-44_10x10mm_Pitch0.8mm" H 7400 2850 50  0001 C CIN
-F 3 "" H 8500 3950 50  0001 C CNN
-	1    7400 2850
-	1    0    0    -1  
-$EndComp
 Text Label 8650 1400 0    60   ~ 0
 SCK
 Text Label 8600 1500 0    60   ~ 0
@@ -468,8 +457,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 1600 8800 1600
 Wire Wire Line
-	8500 1700 8800 1700
-Wire Wire Line
 	8500 1800 8800 1800
 Wire Wire Line
 	8500 1900 8800 1900
@@ -507,14 +494,7 @@ Wire Wire Line
 	8500 4100 8800 4100
 Wire Wire Line
 	8500 4200 8800 4200
-Wire Wire Line
-	7000 4450 7250 4450
-Connection ~ 7450 4450
-Connection ~ 7350 4450
-Connection ~ 7250 4450
 Connection ~ 7300 4450
-Connection ~ 7550 1050
-Connection ~ 7300 1050
 Connection ~ 7400 1050
 Wire Wire Line
 	5950 1300 6250 1300
@@ -582,8 +562,6 @@ Wire Wire Line
 	3200 2350 3200 2450
 Wire Wire Line
 	3200 2750 3200 2850
-Wire Wire Line
-	7200 1050 7300 1050
 Connection ~ 5100 2650
 Wire Wire Line
 	5100 2650 5100 2900
@@ -634,20 +612,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 1650 6050 1650
 Connection ~ 6050 1650
-Wire Wire Line
-	7450 4450 7550 4450
-Wire Wire Line
-	7350 4450 7450 4450
-Wire Wire Line
-	7250 4450 7300 4450
-Wire Wire Line
-	7300 4450 7350 4450
-Wire Wire Line
-	7550 1050 7650 1050
-Wire Wire Line
-	7300 1050 7400 1050
-Wire Wire Line
-	7400 1050 7550 1050
 Wire Wire Line
 	6100 2900 6250 2900
 Wire Wire Line
@@ -1718,17 +1682,6 @@ F 3 "" H 2700 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L project:R R29
-U 1 1 63C58743
-P 2700 6200
-F 0 "R29" V 2750 6000 50  0000 C CNN
-F 1 "4K7" V 2700 6200 50  0000 C CNN
-F 2 "footprints:R_0603" V 2630 6200 50  0001 C CNN
-F 3 "" H 2700 6200 50  0001 C CNN
-	1    2700 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L project:+5V #PWR0112
 U 1 1 63C588C4
 P 3000 6000
@@ -1814,14 +1767,61 @@ Wire Wire Line
 	1450 6300 1450 6200
 Connection ~ 1450 6300
 $Comp
-L project:GND #PWR?
+L project:GND #PWR0110
 U 1 1 63F8BC64
 P 4800 6300
-F 0 "#PWR?" H 4800 6050 50  0001 C CNN
+F 0 "#PWR0110" H 4800 6050 50  0001 C CNN
 F 1 "GND" H 4800 6150 50  0000 C CNN
 F 2 "" H 4800 6300 50  0001 C CNN
 F 3 "" H 4800 6300 50  0001 C CNN
 	1    4800 6300
 	0    1    1    0   
+$EndComp
+$Comp
+L project:R R27
+U 1 1 63C58743
+P 2700 6200
+F 0 "R27" V 2750 6000 50  0000 C CNN
+F 1 "4K7" V 2700 6200 50  0000 C CNN
+F 2 "footprints:R_0603" V 2630 6200 50  0001 C CNN
+F 3 "" H 2700 6200 50  0001 C CNN
+	1    2700 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 1050 7550 1050
+Wire Wire Line
+	7550 1050 7650 1050
+Wire Wire Line
+	7300 4450 7350 4450
+Wire Wire Line
+	7350 4450 7450 4450
+Wire Wire Line
+	7450 4450 7550 4450
+Wire Wire Line
+	7300 1050 7400 1050
+Wire Wire Line
+	7200 1050 7300 1050
+Connection ~ 7300 1050
+Connection ~ 7550 1050
+Connection ~ 7250 4450
+Connection ~ 7350 4450
+Connection ~ 7450 4450
+Wire Wire Line
+	7250 4450 7300 4450
+Wire Wire Line
+	7000 4450 7250 4450
+Wire Wire Line
+	8500 1700 8800 1700
+$Comp
+L project:ATMEGA32U4-AU U1
+U 1 1 5B3FD92A
+P 7400 2850
+F 0 "U1" H 6450 4550 50  0000 C CNN
+F 1 "ATMEGA32U4-AU" H 8100 1350 50  0000 C CNN
+F 2 "footprints:TQFP-44_10x10mm_Pitch0.8mm" H 7400 2850 50  0001 C CIN
+F 3 "" H 8500 3950 50  0001 C CNN
+	1    7400 2850
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
