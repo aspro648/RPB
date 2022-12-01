@@ -537,7 +537,7 @@ U 1 1 63828BB9
 P 5300 3550
 F 0 "J2" H 5380 3542 50  0000 L CNN
 F 1 "Conn_01x10" H 5380 3451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical" H 5300 3550 50  0001 C CNN
+F 2 "footprints:PinHeader_1x10_P2.00mm_Vertical" H 5300 3550 50  0001 C CNN
 F 3 "~" H 5300 3550 50  0001 C CNN
 	1    5300 3550
 	1    0    0    -1  
@@ -548,7 +548,7 @@ U 1 1 6382A1AF
 P 6800 3550
 F 0 "J4" H 6880 3542 50  0000 L CNN
 F 1 "Conn_01x10" H 6880 3451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical" H 6800 3550 50  0001 C CNN
+F 2 "footprints:PinHeader_1x10_P2.00mm_Vertical" H 6800 3550 50  0001 C CNN
 F 3 "~" H 6800 3550 50  0001 C CNN
 	1    6800 3550
 	1    0    0    -1  
@@ -559,7 +559,7 @@ U 1 1 6382AC72
 P 5400 3550
 F 0 "J3" H 5318 4167 50  0000 C CNN
 F 1 "Conn_01x10" H 5318 4076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical" H 5400 3550 50  0001 C CNN
+F 2 "footprints:PinHeader_1x10_P2.00mm_Vertical" H 5400 3550 50  0001 C CNN
 F 3 "~" H 5400 3550 50  0001 C CNN
 	1    5400 3550
 	-1   0    0    -1  
@@ -570,7 +570,7 @@ U 1 1 63831BDF
 P 6900 3550
 F 0 "J5" H 6818 4167 50  0000 C CNN
 F 1 "Conn_01x10" H 6818 4076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical" H 6900 3550 50  0001 C CNN
+F 2 "footprints:PinHeader_1x10_P2.00mm_Vertical" H 6900 3550 50  0001 C CNN
 F 3 "~" H 6900 3550 50  0001 C CNN
 	1    6900 3550
 	-1   0    0    -1  
@@ -613,7 +613,7 @@ U 1 1 6386DEAD
 P 5300 3550
 F 0 "J6" H 5380 3542 50  0000 L CNN
 F 1 "Conn_01x10" H 5380 3451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x10_P2.00mm_Vertical" H 5300 3550 50  0001 C CNN
+F 2 "footprints:PinHeader_1x10_P2.00mm_Vertical" H 5300 3550 50  0001 C CNN
 F 3 "~" H 5300 3550 50  0001 C CNN
 	1    5300 3550
 	1    0    0    -1  

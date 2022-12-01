@@ -589,12 +589,12 @@ $EndComp
 $Comp
 L project:GND #PWR0111
 U 1 1 63833D6C
-P 4650 5550
-F 0 "#PWR0111" H 4650 5300 50  0001 C CNN
-F 1 "GND" H 4650 5400 50  0000 C CNN
-F 2 "" H 4650 5550 50  0001 C CNN
-F 3 "" H 4650 5550 50  0001 C CNN
-	1    4650 5550
+P 4650 5150
+F 0 "#PWR0111" H 4650 4900 50  0001 C CNN
+F 1 "GND" H 4650 5000 50  0000 C CNN
+F 2 "" H 4650 5150 50  0001 C CNN
+F 3 "" H 4650 5150 50  0001 C CNN
+	1    4650 5150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -605,27 +605,8 @@ Wire Wire Line
 	4950 5250 4650 5250
 Wire Wire Line
 	4950 5350 4650 5350
-Text Label 4650 5150 0    60   ~ 0
-D2_SDA
-$Comp
-L Connector_Generic:Conn_01x06 J1
-U 1 1 6384D1C5
-P 5150 5250
-F 0 "J1" H 5230 5242 50  0000 L CNN
-F 1 "Conn_01x06" H 5230 5151 50  0000 L CNN
-F 2 "footprints:PinHeader_1x06_P2.54mm_Vertical" H 5150 5250 50  0001 C CNN
-F 3 "~" H 5150 5250 50  0001 C CNN
-	1    5150 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 5550 4950 5550
-Wire Wire Line
-	4950 5450 4650 5450
-Text Label 4650 5450 0    60   ~ 0
-RESET
 Text Label 4650 5350 0    60   ~ 0
-A
+D2_SDA
 $Comp
 L Connector_Generic:Conn_01x10 J6
 U 1 1 6386DEAD
@@ -647,4 +628,15 @@ Connection ~ 5100 3650
 Connection ~ 5100 3750
 Connection ~ 5100 3850
 Connection ~ 5100 3950
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 6387A405
+P 5150 5150
+F 0 "J1" H 5230 5142 50  0000 L CNN
+F 1 "Conn_01x04" H 5230 5051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5150 5150 50  0001 C CNN
+F 3 "~" H 5150 5150 50  0001 C CNN
+	1    5150 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

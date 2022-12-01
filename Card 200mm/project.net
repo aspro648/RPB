@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\648ke\\git\\RPB\\Card template\\project.sch")
-    (date "11/25/2022 8:59:30 PM")
+    (source "C:\\Users\\648ke\\git\\RPB\\Card 200mm\\project.sch")
+    (date "11/30/2022 8:03:34 PM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -24,7 +24,7 @@
       (tstamp 63771AB0))
     (comp (ref U1)
       (value 24LC32)
-      (footprint Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm)
+      (footprint footprints:DFN-8-1EP_3x2mm)
       (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf)
       (libsource (lib Memory_EEPROM) (part 24LC32) (description "I2C Serial EEPROM, 32Kb, DIP-8/SOIC-8/TSSOP-8/DFN-8"))
       (sheetpath (names /) (tstamps /))

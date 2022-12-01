@@ -241,7 +241,7 @@ U 1 1 63E7C52F
 P 2100 6850
 F 0 "U1" H 1900 7100 50  0000 C CNN
 F 1 "24LC32" H 2350 6550 50  0000 C CNN
-F 2 "Package_DFN_QFN:DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm" H 2100 6850 50  0001 C CNN
+F 2 "footprints:DFN-8-1EP_3x2mm" H 2100 6850 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf" H 2100 6850 50  0001 C CNN
 	1    2100 6850
 	1    0    0    -1  
@@ -489,4 +489,5 @@ F 3 "~" H 6300 4650 50  0001 C CNN
 	1    6300 4650
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3350 4150
 $EndSCHEMATC

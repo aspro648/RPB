@@ -350,7 +350,7 @@ L Connector_Generic:Conn_01x10 J1
 U 1 1 63C231A4
 P 5300 3550
 F 0 "J1" H 5380 3542 50  0000 L CNN
-F 1 "PicoBlade 10P" H 5380 3451 50  0000 L CNN
+F 1 "Molex PicoBlade" H 5380 3451 50  0000 L CNN
 F 2 "Connector_Molex:Molex_PicoBlade_53047-1010_1x10_P1.25mm_Vertical" H 5300 3550 50  0001 C CNN
 F 3 "~" H 5300 3550 50  0001 C CNN
 	1    5300 3550
@@ -381,8 +381,8 @@ L Connector_Generic:Conn_01x10 J2
 U 1 1 63C2412B
 P 5300 4650
 F 0 "J2" H 5380 4642 50  0000 L CNN
-F 1 "PicoBlade 10P" H 5380 4551 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-1010_1x10_P1.25mm_Vertical" H 5300 4650 50  0001 C CNN
+F 1 "Hirose DF13" H 5380 4551 50  0000 L CNN
+F 2 "Connector_Hirose:Hirose_DF13-10P-1.25DSA_1x10_P1.25mm_Vertical" H 5300 4650 50  0001 C CNN
 F 3 "~" H 5300 4650 50  0001 C CNN
 	1    5300 4650
 	1    0    0    -1  
