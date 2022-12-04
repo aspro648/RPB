@@ -1445,7 +1445,7 @@ U 1 1 63747108
 P 2350 7650
 F 0 "CardOutline1" H 2346 7753 50  0000 C CNN
 F 1 "SYM_Arrow_Large" H 2350 7570 50  0001 C CNN
-F 2 "footprints:MEC8-113-CARD-OUTLINE" H 2350 7650 50  0001 C CNN
+F 2 "footprints:MEC8-113-CARD_2outline" H 2350 7650 50  0001 C CNN
 F 3 "~" H 2350 7650 50  0001 C CNN
 	1    2350 7650
 	1    0    0    -1  
@@ -1456,7 +1456,7 @@ U 1 1 63748B06
 P 2350 7850
 F 0 "CardOutline2" H 2346 7953 50  0000 C CNN
 F 1 "SYM_Arrow_Large" H 2350 7770 50  0001 C CNN
-F 2 "footprints:MEC8-113-CARD-OUTLINE" H 2350 7850 50  0001 C CNN
+F 2 "footprints:MEC8-113-CARD_2outline" H 2350 7850 50  0001 C CNN
 F 3 "~" H 2350 7850 50  0001 C CNN
 	1    2350 7850
 	1    0    0    -1  
@@ -1473,10 +1473,10 @@ F 3 "~" H 2950 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:SYM_Arrow_Large #SnakeBack1
+L Graphic:SYM_Arrow_Large SnakeBack1
 U 1 1 6390D071
 P 2950 7850
-F 0 "#SnakeBack1" H 2946 7953 50  0000 C CNN
+F 0 "SnakeBack1" H 2946 7953 50  0000 C CNN
 F 1 "SYM_Arrow_Large" H 2950 7770 50  0001 C CNN
 F 2 "footprints:Snake" H 2950 7850 50  0001 C CNN
 F 3 "~" H 2950 7850 50  0001 C CNN

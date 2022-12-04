@@ -296,15 +296,14 @@ D-
 $Comp
 L project:Polyfuse F1
 U 1 1 5B6E44FA
-P 5750 2450
-F 0 "F1" V 5650 2350 50  0000 C CNN
-F 1 "Polyfuse" V 5800 2600 50  0000 C CNN
-F 2 "footprints:R_0805_HandSoldering" H 5800 2250 50  0001 L CNN
-F 3 "" H 5750 2450 50  0001 C CNN
-	1    5750 2450
+P 5150 2450
+F 0 "F1" V 5050 2350 50  0000 C CNN
+F 1 "Polyfuse" V 5200 2600 50  0000 C CNN
+F 2 "footprints:R_0805_HandSoldering" H 5200 2250 50  0001 L CNN
+F 3 "" H 5150 2450 50  0001 C CNN
+	1    5150 2450
 	0    1    1    0   
 $EndComp
-NoConn ~ 5750 2450
 $Comp
 L project:VBUS #PWR016
 U 1 1 5B8EB917
@@ -508,8 +507,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 2500 6250 2500
 Wire Wire Line
-	6100 2500 6100 2450
-Wire Wire Line
 	6250 2650 5950 2650
 Wire Wire Line
 	6250 2750 5950 2750
@@ -523,10 +520,6 @@ Wire Wire Line
 	4900 2650 5100 2650
 Wire Wire Line
 	4900 2750 5350 2750
-Wire Wire Line
-	4900 2450 5600 2450
-Wire Wire Line
-	6100 2450 5900 2450
 Wire Wire Line
 	9350 3500 9350 3450
 Wire Wire Line
@@ -718,9 +711,6 @@ F 3 "" H 6100 2400 50  0001 C CNN
 	1    6100 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 2450 6100 2400
-Connection ~ 6100 2450
 $Comp
 L project:R R1
 U 1 1 6389CC0A
@@ -1455,7 +1445,7 @@ U 1 1 63747108
 P 2350 7650
 F 0 "CardOutline1" H 2346 7753 50  0000 C CNN
 F 1 "SYM_Arrow_Large" H 2350 7570 50  0001 C CNN
-F 2 "footprints:MEC8-113-CARD-OUTLINE" H 2350 7650 50  0001 C CNN
+F 2 "footprints:MEC8-113-CARD_2outline" H 2350 7650 50  0001 C CNN
 F 3 "~" H 2350 7650 50  0001 C CNN
 	1    2350 7650
 	1    0    0    -1  
@@ -1466,16 +1456,16 @@ U 1 1 63748B06
 P 2350 7850
 F 0 "CardOutline2" H 2346 7953 50  0000 C CNN
 F 1 "SYM_Arrow_Large" H 2350 7770 50  0001 C CNN
-F 2 "footprints:MEC8-113-CARD-OUTLINE" H 2350 7850 50  0001 C CNN
+F 2 "footprints:MEC8-113-CARD_2outline" H 2350 7850 50  0001 C CNN
 F 3 "~" H 2350 7850 50  0001 C CNN
 	1    2350 7850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:SYM_Arrow_Large SnakeFront1
+L Graphic:SYM_Arrow_Large #SnakeFront1
 U 1 1 6390CCB5
 P 2950 7650
-F 0 "SnakeFront1" H 2946 7753 50  0000 C CNN
+F 0 "#SnakeFront1" H 2946 7753 50  0000 C CNN
 F 1 "SYM_Arrow_Large" H 2950 7570 50  0001 C CNN
 F 2 "footprints:Snake" H 2950 7650 50  0001 C CNN
 F 3 "~" H 2950 7650 50  0001 C CNN
@@ -1483,10 +1473,10 @@ F 3 "~" H 2950 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:SYM_Arrow_Large SnakeBack1
+L Graphic:SYM_Arrow_Large #SnakeBack1
 U 1 1 6390D071
 P 2950 7850
-F 0 "SnakeBack1" H 2946 7953 50  0000 C CNN
+F 0 "#SnakeBack1" H 2946 7953 50  0000 C CNN
 F 1 "SYM_Arrow_Large" H 2950 7770 50  0001 C CNN
 F 2 "footprints:Snake" H 2950 7850 50  0001 C CNN
 F 3 "~" H 2950 7850 50  0001 C CNN
@@ -1824,4 +1814,179 @@ F 3 "" H 8500 3950 50  0001 C CNN
 	1    7400 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Analog_ADC:INA219AxD U2
+U 1 1 638CCFE0
+P 8400 5650
+F 0 "U2" H 8200 6000 50  0000 C CNN
+F 1 "INA219AxD" H 8050 5250 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9200 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 8750 5550 50  0001 C CNN
+	1    8400 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:GND #PWR0115
+U 1 1 638CEDC3
+P 8400 6150
+F 0 "#PWR0115" H 8400 5900 50  0001 C CNN
+F 1 "GND" H 8400 6000 50  0000 C CNN
+F 2 "" H 8400 6150 50  0001 C CNN
+F 3 "" H 8400 6150 50  0001 C CNN
+	1    8400 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5750 7900 5750
+Wire Wire Line
+	8400 6100 8400 6050
+Wire Wire Line
+	8400 6100 8400 6150
+Connection ~ 8400 6100
+Wire Wire Line
+	8800 5750 9000 5750
+Wire Wire Line
+	9000 5750 9000 5850
+Wire Wire Line
+	9000 6100 8400 6100
+Wire Wire Line
+	8750 5850 8800 5850
+Connection ~ 9000 5850
+Wire Wire Line
+	9000 5850 9000 6100
+Connection ~ 8800 5850
+Wire Wire Line
+	8800 5850 9000 5850
+Wire Wire Line
+	8800 5450 9200 5450
+Wire Wire Line
+	8800 5550 9200 5550
+Text Label 8900 5550 0    60   ~ 0
+D3_SCL
+Text Label 8850 5450 0    60   ~ 0
+D2_SDA
+$Comp
+L Device:R R29
+U 1 1 63942558
+P 7650 5650
+F 0 "R29" H 7720 5696 50  0000 L CNN
+F 1 "0.1" H 7720 5605 50  0000 L CNN
+F 2 "footprints:R_1206" V 7580 5650 50  0001 C CNN
+F 3 "~" H 7650 5650 50  0001 C CNN
+	1    7650 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2400 6100 2500
+Wire Wire Line
+	4900 2450 5000 2450
+Wire Wire Line
+	5300 2450 5650 2450
+Text Label 5450 2450 0    60   ~ 0
+Vin
+Wire Wire Line
+	7900 5750 7900 5900
+Wire Wire Line
+	7900 5900 7650 5900
+Wire Wire Line
+	7650 5900 7650 5800
+Wire Wire Line
+	8000 5550 7900 5550
+Wire Wire Line
+	7900 5550 7900 5350
+Wire Wire Line
+	7900 5350 7650 5350
+Wire Wire Line
+	7650 5350 7650 5500
+Wire Wire Line
+	7650 5900 7450 5900
+Connection ~ 7650 5900
+Text Label 7200 5900 0    60   ~ 0
+Vin
+$Comp
+L project:+5V #PWR0116
+U 1 1 63B23406
+P 7650 5200
+F 0 "#PWR0116" H 7650 5050 50  0001 C CNN
+F 1 "+5V" H 7650 5340 50  0000 C CNN
+F 2 "" H 7650 5200 50  0001 C CNN
+F 3 "" H 7650 5200 50  0001 C CNN
+	1    7650 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:+5V #PWR0117
+U 1 1 63B23B58
+P 8400 5200
+F 0 "#PWR0117" H 8400 5050 50  0001 C CNN
+F 1 "+5V" H 8400 5340 50  0000 C CNN
+F 2 "" H 8400 5200 50  0001 C CNN
+F 3 "" H 8400 5200 50  0001 C CNN
+	1    8400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:+5V #PWR0118
+U 1 1 63B24080
+P 9400 5200
+F 0 "#PWR0118" H 9400 5050 50  0001 C CNN
+F 1 "+5V" H 9400 5340 50  0000 C CNN
+F 2 "" H 9400 5200 50  0001 C CNN
+F 3 "" H 9400 5200 50  0001 C CNN
+	1    9400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:GND #PWR0119
+U 1 1 63B244C9
+P 9400 6100
+F 0 "#PWR0119" H 9400 5850 50  0001 C CNN
+F 1 "GND" H 9400 5950 50  0000 C CNN
+F 2 "" H 9400 6100 50  0001 C CNN
+F 3 "" H 9400 6100 50  0001 C CNN
+	1    9400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:C C2
+U 1 1 63B24868
+P 9400 5650
+F 0 "C2" H 9425 5750 50  0000 L CNN
+F 1 "0.1uF" H 9425 5550 50  0000 L CNN
+F 2 "footprints:C_0603" H 9438 5500 50  0001 C CNN
+F 3 "" H 9400 5650 50  0001 C CNN
+	1    9400 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 6100 9400 5800
+Wire Wire Line
+	9400 5500 9400 5200
+Wire Wire Line
+	8400 5250 8400 5200
+Wire Wire Line
+	7650 5350 7650 5200
+Connection ~ 7650 5350
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 63B76AE5
+P 7450 5650
+F 0 "JP1" V 7400 5450 50  0000 L CNN
+F 1 "JMP" V 7500 5450 50  0000 L CNN
+F 2 "footprints:Jumper" H 7450 5650 50  0001 C CNN
+F 3 "~" H 7450 5650 50  0001 C CNN
+	1    7450 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 5900 7450 5750
+Connection ~ 7450 5900
+Wire Wire Line
+	7450 5900 7150 5900
+Wire Wire Line
+	7450 5550 7450 5350
+Wire Wire Line
+	7450 5350 7650 5350
+Text Notes 7850 6200 0    60   ~ 0
+i2c: 0x40
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-43377962568403
+41707544010470
 footprints
 Jumper
 
@@ -55,13 +55,6 @@ MEC8-113-CARD_2
 0
 26
 26
-footprints
-MEC8-113-CARD_2outline
-
-
-0
-0
-0
 footprints
 MEC8_card
 0.8mm RIGHT ANGLE EDGE CARD ASSEMBLY.
@@ -154,6 +147,13 @@ resistor 1206
 2
 2
 footprints
+Resonator_SMD_CTSC_1.3mmx3.2mm
+SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+footprints
 SAMTEC_MEC6-110-02-L-D-RA1-TR
 
 
@@ -174,10 +174,3 @@ SAMTEC_MEC8-113-TOP-BOTTOM
 0
 26
 26
-footprints
-TestPoints_1x10_P1.25mm_Vertical
-Molex PicoBlade Connector System, 53047-1010, 10 Pins per row (http://www.molex.com/pdm_docs/sd/530470610_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade side entry
-0
-10
-10

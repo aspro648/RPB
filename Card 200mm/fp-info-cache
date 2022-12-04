@@ -1,11 +1,74 @@
-55065464547973
+96762159224118
 footprints
-DFN-8-1EP_3x2mm
-8-Lead Plastic Dual Flat, No Lead Package (8MA2) - 2x3x0.6 mm Body [UDFN] (see Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf)
-DFN 0.5
+Arduino_Leonardo_Shield
+https://store.arduino.cc/arduino-leonardo-with-headers
+
 0
-13
-9
+38
+37
+footprints
+BARREL_JACK
+DC Barrel Jack
+Power Jack
+0
+3
+3
+footprints
+C_0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
+0
+2
+2
+footprints
+C_0805
+Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
+capacitor 0805
+0
+2
+2
+footprints
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+footprints
+C_1206_HandSoldering
+Capacitor SMD 1206, hand soldering
+capacitor 1206
+0
+2
+2
+footprints
+D_SOD-123F
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+footprints
+EVQ-P7A
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+footprints
+Harwin_Gecko-G125-MVX2005L0X_2x10_P1.25mm_Vertical
+Harwin Gecko Connector, 20 pins, dual row male, vertical entry, no latches, PN:G125-MVX2005L0X
+connector harwin gecko
+0
+20
+20
+footprints
+INPI33TBTPRPGPB
+IN-PI33TBTPRPGPB-5
+LED
+0
+4
+4
 footprints
 Jumper
 
@@ -35,6 +98,48 @@ resistor 0805
 2
 2
 footprints
+LED_1655
+
+
+0
+4
+4
+footprints
+LIS3DH
+
+
+0
+16
+16
+footprints
+Leo_Front
+
+
+0
+0
+0
+footprints
+Leo_back
+
+
+0
+0
+0
+footprints
+Leo_font
+
+
+0
+0
+0
+footprints
+M3mount
+Single banana socket, footprint - 6mm drill
+banana socket
+0
+1
+1
+footprints
 M25standoff
 Single banana socket, footprint - 6mm drill
 banana socket
@@ -56,12 +161,12 @@ MEC8-113-CARD
 26
 26
 footprints
-MEC8-113-CARD_2
+MEC8-113-CARD-OUTLINE
 
 
 0
-26
-26
+0
+0
 footprints
 MEC8-113-CARD_2outline
 
@@ -70,12 +175,19 @@ MEC8-113-CARD_2outline
 0
 0
 footprints
-MEC8_card
+MEC8-card
 0.8mm RIGHT ANGLE EDGE CARD ASSEMBLY.
 
 0
 20
 20
+footprints
+MEC8_card
+0.8mm RIGHT ANGLE EDGE CARD ASSEMBLY.
+
+0
+0
+0
 footprints
 MEC8_top_bottom
 0.8mm RIGHT ANGLE EDGE CARD ASSEMBLY.
@@ -92,6 +204,13 @@ MadeInOregonRev25
 0
 footprints
 OSHW-Logo_5.7x6mm_SilkScreen
+Open Source Hardware Logo
+Logo OSHW
+0
+0
+0
+footprints
+OSHW-Logo_11.4x12mm_SilkScreen
 Open Source Hardware Logo
 Logo OSHW
 0
@@ -161,6 +280,13 @@ resistor 1206
 2
 2
 footprints
+Resonator_SMD_CTSC_1.3mmx3.2mm
+SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+footprints
 SAMTEC_MEC6-110-02-L-D-RA1-TR
 
 
@@ -182,51 +308,100 @@ SAMTEC_MEC8-113-TOP-BOTTOM
 26
 26
 footprints
-TestPoints_1x10_P1.25mm_Vertical
-Molex PicoBlade Connector System, 53047-1010, 10 Pins per row (http://www.molex.com/pdm_docs/sd/530470610_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade side entry
-0
-10
-10
-footprints
-test_pads_125mm_x03
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
+SOT-23
+SOT-23, Standard
+SOT-23
 0
 3
 3
 footprints
-test_pads_125mm_x04
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
-0
-4
-4
-footprints
-test_pads_125mm_x05
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
 0
 5
 5
 footprints
-test_pads_125mm_x06
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
 0
-6
+4
+3
+footprints
+SW_SPST_KMR2
+CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
+tactile switch kmr2
+0
+4
+2
+footprints
+SW_SPST_PTS645
+C&K Components SPST SMD PTS645 Series 6mm Tact Switch
+SPST Button Switch
+0
+4
+2
+footprints
+SW_TS10-63-26-BE-250-SMT-TR
+
+
+0
+2
+2
+footprints
+Snake
+
+
+0
+0
+0
+footprints
+SnakeSmall
+
+
+0
+0
+0
+footprints
+TQFP-44_10x10mm_Pitch0.8mm
+44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+44
+44
+footprints
+TSOP-5_1.65x3.05mm_Pitch0.95mm
+TSOP-5 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf
+Jedec MO-193C TSOP-5L
+0
+5
+5
+footprints
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
 6
 footprints
-test_pads_125mm_x08
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
+VSSOP-8_3.0x3.0mm_Pitch0.65mm
+VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
+VSSOP-8 3.0 x 3.0
 0
 8
 8
 footprints
-test_pads_125mm_x10
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
+graphic_SDA
+
+
 0
-10
-10
+0
+0
+footprints
+graphic_SDA - Copy
+
+
+0
+0
+0
