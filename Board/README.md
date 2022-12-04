@@ -35,6 +35,8 @@ Card:
 - 1 ea., IC EEPROM 32KBIT I2C, Microchip 24LC32AT-I/MC, https://www.digikey.com/short/r3f225vm
 - 1 ea., I2C Display Module 0.91 Inch I2C, https://www.amazon.com/Pieces-Display-Module-SSD1306-Screen/dp/B08N6N8L5Q
 
+Stencil & Jig:
+- https://www.oshstencils.com/#invoice/f85fbdbab6d232adc4eabbb0beae4f31dd6d9d
 
 
 License
