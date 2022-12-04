@@ -1,4 +1,4 @@
-Rapid Prototyping Board ArduinoISP Card
+Rapid Prototyping Board - ArduinoISP Card
 ---------------------------------------
 ![Picture](project.png) 
 
@@ -25,8 +25,7 @@ Bill Of Materials
 - 1 ea., CONN IC DIP SOCKET 28POS TIN, On Shore ED281DT, https://www.digikey.com/short/d8nq4rd3
 - 1 ea., CONN IC DIP SOCKET 8POS, On Shore ED08DT, https://www.digikey.com/short/3tnrjzh5
 - 1 ea., 6-PIN SOCKET/SOCKET IDC CABLE, Adafruit 371, https://www.digikey.com/short/b992qfbd
-- 1 ea., CONN HEADER VERT 6POS 2.54MM Shrouded, Wuruth6 1200621621, https://www.digikey.com/short/j4nhnzrw
-         or CONN HEADER VERT 6POS 2.54MM, Amphenol 77313-118-06LF, https://www.digikey.com/short/r2d1pw4f
+- 1 ea., CONN HEADER VERT 6POS 2.54MM, Amphenol 77313-118-06LF, https://www.digikey.com/short/r2d1pw4f
 
 License
 ----------------

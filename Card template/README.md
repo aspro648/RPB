@@ -1,4 +1,4 @@
-Rapid Prototyping Board Template Card
+Rapid Prototyping Board - Template Card
 -------------------------------------
 ![Picture](project.png) 
 
