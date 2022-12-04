@@ -1,5 +1,5 @@
-Rapid Prototyping Board
-
+Rapid Prototyping Board ArduinoISP Card
+---------------------------------------
 ![Picture](project.png) 
 
 What is it?

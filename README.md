@@ -1,6 +1,5 @@
 Rapid Prototyping Board
 -------------------------------
-
 ![Picture](project.png) 
 
 What is it?
@@ -11,7 +10,7 @@ What is it?
 Why?
 ----
 
-- It started out as a 20-pin cable tester (Use Case 1), but morphed into a more generic prototyping system.
+- It started out as a 20-pin harness tester (Use Case 1), but morphed into a more generic prototyping system.
 - Allows you to quickly prototype systems out on inexpensive small PCBs
 
 Features:
