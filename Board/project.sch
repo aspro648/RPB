@@ -1442,45 +1442,45 @@ NoConn ~ 6050 3700
 $Comp
 L Graphic:SYM_Arrow_Large CardOutline1
 U 1 1 63747108
-P 2350 7650
-F 0 "CardOutline1" H 2346 7753 50  0000 C CNN
-F 1 "SYM_Arrow_Large" H 2350 7570 50  0001 C CNN
-F 2 "footprints:MEC8-113-CARD_2outline" H 2350 7650 50  0001 C CNN
-F 3 "~" H 2350 7650 50  0001 C CNN
-	1    2350 7650
+P 3900 7600
+F 0 "CardOutline1" H 3896 7703 50  0000 C CNN
+F 1 "SYM_Arrow_Large" H 3900 7520 50  0001 C CNN
+F 2 "footprints:MEC8-113-CARD_2outline" H 3900 7600 50  0001 C CNN
+F 3 "~" H 3900 7600 50  0001 C CNN
+	1    3900 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:SYM_Arrow_Large CardOutline2
 U 1 1 63748B06
-P 2350 7850
-F 0 "CardOutline2" H 2346 7953 50  0000 C CNN
-F 1 "SYM_Arrow_Large" H 2350 7770 50  0001 C CNN
-F 2 "footprints:MEC8-113-CARD_2outline" H 2350 7850 50  0001 C CNN
-F 3 "~" H 2350 7850 50  0001 C CNN
-	1    2350 7850
+P 3900 7800
+F 0 "CardOutline2" H 3896 7903 50  0000 C CNN
+F 1 "SYM_Arrow_Large" H 3900 7720 50  0001 C CNN
+F 2 "footprints:MEC8-113-CARD_2outline" H 3900 7800 50  0001 C CNN
+F 3 "~" H 3900 7800 50  0001 C CNN
+	1    3900 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:SYM_Arrow_Large #SnakeFront1
 U 1 1 6390CCB5
-P 2950 7650
-F 0 "#SnakeFront1" H 2946 7753 50  0000 C CNN
-F 1 "SYM_Arrow_Large" H 2950 7570 50  0001 C CNN
-F 2 "footprints:Snake" H 2950 7650 50  0001 C CNN
-F 3 "~" H 2950 7650 50  0001 C CNN
-	1    2950 7650
+P 4500 7600
+F 0 "#SnakeFront1" H 4496 7703 50  0000 C CNN
+F 1 "SYM_Arrow_Large" H 4500 7520 50  0001 C CNN
+F 2 "footprints:Snake" H 4500 7600 50  0001 C CNN
+F 3 "~" H 4500 7600 50  0001 C CNN
+	1    4500 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:SYM_Arrow_Large SnakeBack1
 U 1 1 6390D071
-P 2950 7850
-F 0 "SnakeBack1" H 2946 7953 50  0000 C CNN
-F 1 "SYM_Arrow_Large" H 2950 7770 50  0001 C CNN
-F 2 "footprints:Snake" H 2950 7850 50  0001 C CNN
-F 3 "~" H 2950 7850 50  0001 C CNN
-	1    2950 7850
+P 4500 7800
+F 0 "SnakeBack1" H 4496 7903 50  0000 C CNN
+F 1 "SYM_Arrow_Large" H 4500 7720 50  0001 C CNN
+F 2 "footprints:Snake" H 4500 7800 50  0001 C CNN
+F 3 "~" H 4500 7800 50  0001 C CNN
+	1    4500 7800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1518,34 +1518,34 @@ Wire Wire Line
 $Comp
 L Graphic:SYM_Arrow_Large MadeWithKiCAD1
 U 1 1 63AF2EFE
-P 3500 7650
-F 0 "MadeWithKiCAD1" H 3496 7753 50  0000 C CNN
-F 1 "SYM_Arrow_Large" H 3500 7570 50  0001 C CNN
-F 2 "footprints:KiCad-Logo2_8mm_SilkScreen" H 3500 7650 50  0001 C CNN
-F 3 "~" H 3500 7650 50  0001 C CNN
-	1    3500 7650
+P 5050 7600
+F 0 "MadeWithKiCAD1" H 5046 7703 50  0000 C CNN
+F 1 "SYM_Arrow_Large" H 5050 7520 50  0001 C CNN
+F 2 "footprints:KiCad-Logo2_8mm_SilkScreen" H 5050 7600 50  0001 C CNN
+F 3 "~" H 5050 7600 50  0001 C CNN
+	1    5050 7600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:SYM_Arrow_Large OSHW1
 U 1 1 63AF328A
-P 3500 7850
-F 0 "OSHW1" H 3496 7953 50  0000 C CNN
-F 1 "SYM_Arrow_Large" H 3500 7770 50  0001 C CNN
-F 2 "footprints:OSHW-Logo_11.4x12mm_SilkScreen" H 3500 7850 50  0001 C CNN
-F 3 "~" H 3500 7850 50  0001 C CNN
-	1    3500 7850
+P 5050 7800
+F 0 "OSHW1" H 5046 7903 50  0000 C CNN
+F 1 "SYM_Arrow_Large" H 5050 7720 50  0001 C CNN
+F 2 "footprints:OSHW-Logo_11.4x12mm_SilkScreen" H 5050 7800 50  0001 C CNN
+F 3 "~" H 5050 7800 50  0001 C CNN
+	1    5050 7800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:SYM_Arrow_Large MadeInOregon1
 U 1 1 63AF35D1
-P 4000 7850
-F 0 "MadeInOregon1" H 3996 7953 50  0000 C CNN
-F 1 "SYM_Arrow_Large" H 4000 7770 50  0001 C CNN
-F 2 "footprints:MadeInOregonRev25" H 4000 7850 50  0001 C CNN
-F 3 "~" H 4000 7850 50  0001 C CNN
-	1    4000 7850
+P 5550 7800
+F 0 "MadeInOregon1" H 5546 7903 50  0000 C CNN
+F 1 "SYM_Arrow_Large" H 5550 7720 50  0001 C CNN
+F 2 "footprints:MadeInOregonRev25" H 5550 7800 50  0001 C CNN
+F 3 "~" H 5550 7800 50  0001 C CNN
+	1    5550 7800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1989,4 +1989,43 @@ Wire Wire Line
 	7450 5350 7650 5350
 Text Notes 7850 6200 0    60   ~ 0
 i2c: 0x40
+$Comp
+L Memory_EEPROM:24LC32 U3
+U 1 1 63911A51
+P 1700 7500
+F 0 "U3" H 1500 7750 50  0000 C CNN
+F 1 "24LC32" H 1900 7750 50  0000 C CNN
+F 2 "footprints:DFN-8-1EP_3x2mm" H 1700 7500 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21072G.pdf" H 1700 7500 50  0001 C CNN
+	1    1700 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L project:R R30
+U 1 1 63912A10
+P 2300 7500
+F 0 "R30" V 2380 7500 50  0000 C CNN
+F 1 "1K" V 2300 7500 50  0000 C CNN
+F 2 "footprints:R_0603" V 2230 7500 50  0001 C CNN
+F 3 "" H 2300 7500 50  0001 C CNN
+	1    2300 7500
+	1    0    0    -1  
+$EndComp
+Text Notes 1550 7900 0    60   ~ 0
+For card stencil
+NoConn ~ 1300 7400
+NoConn ~ 1300 7500
+NoConn ~ 1300 7600
+NoConn ~ 1700 7800
+NoConn ~ 1700 7200
+NoConn ~ 2300 7350
+NoConn ~ 2300 7650
+Wire Notes Line
+	1150 7100 2500 7100
+Wire Notes Line
+	2500 7100 2500 7950
+Wire Notes Line
+	2500 7950 1150 7950
+Wire Notes Line
+	1150 7950 1150 7100
 $EndSCHEMATC

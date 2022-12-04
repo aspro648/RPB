@@ -1,6 +1,15 @@
 Rapid Prototyping Board
 
-![Picture](images/project.png) 
+![Picture](project.png) 
+
+What is it?
+-----------
+
+- Use RPB as an ISP programmer. 
+- Sockets for Atmega8/168/328 & Attiny25/24/85.
+- ISP jumper for on-board programming.
+- D13 (Atmega) and D2 (Attiny) LED for troubleshooting.
+- Fused to prevent reversed Attiny meltdown!
 
 
 Bill Of Materials
@@ -12,17 +21,12 @@ Bill Of Materials
 - 1 ea., SMD LED RED 0603,
 - 1 ea., SMD LED YELLOW 0603,
 - 1 ea., PTC RESET FUSE 20V 54MA 0805, Murata PRG21AR420MB1RA, https://www.digikey.com/short/2nmhrbvf
-- 4 ea., R1-R23 Resistor 1K OHM SMD 0603, Stackpole RNCP0603FTD1K00, https://www.digikey.com/short/704h9hfn
+- 4 ea., Resistor 1K OHM SMD 0603, Stackpole RNCP0603FTD1K00, https://www.digikey.com/short/704h9hfn
 - 1 ea., CONN IC DIP SOCKET 28POS TIN, On Shore ED281DT, https://www.digikey.com/short/d8nq4rd3
 - 1 ea., CONN IC DIP SOCKET 8POS, On Shore ED08DT, https://www.digikey.com/short/3tnrjzh5
-- 1 ea., CONN HEADER VERT 6POS 2.54MM, Amphenol 77313-118-06LF, https://www.digikey.com/short/r2d1pw4f
-
-Card:
-10K
-24LC32AT-I/MC, https://www.digikey.com/short/r3f225vm
-- 2 ea., M2.5 thumbscrew https://www.mcmaster.com/99607A263/
-https://www.amazon.com/M2-5x6mm-Knurled-Screws-Stainless-Metric/dp/B01NBH813V
-
+- 1 ea., 6-PIN SOCKET/SOCKET IDC CABLE, Adafruit 371, https://www.digikey.com/short/b992qfbd
+- 1 ea., CONN HEADER VERT 6POS 2.54MM Shrouded, Wuruth6 1200621621, https://www.digikey.com/short/j4nhnzrw
+         or CONN HEADER VERT 6POS 2.54MM, Amphenol 77313-118-06LF, https://www.digikey.com/short/r2d1pw4f
 
 License
 ----------------
