@@ -6,7 +6,7 @@ Rapid Prototyping Board
 Bill Of Materials
 ----------------
   
-- 1 ea., Perfect Purple PCB from OSH Park, https://oshpark.com/shared_projects/9w7BhXLy
+- 1 ea., Perfect Purple PCB from OSH Park, https://oshpark.com/shared_projects/RGBCuiso
 - 1 ea., U1 ATMEGA32U4-AU, IC MCU 8BIT 32KB FLASH 44TQFP, https://www.digikey.com/short/jb25pc
 - 1 ea., U2 IC CURRENT MONITOR 1% 8SOIC, TI INA219AIDR, https://www.digikey.com/short/z32drn7n
 - 1 ea., Y1 CER RES 16.0000MHZ 15PF SMD, Murata CSTNE16M0V530000R0, https://www.digikey.com/short/8nzcmjh3
@@ -36,7 +36,7 @@ Card:
 - 1 ea., I2C Display Module 0.91 Inch I2C, https://www.amazon.com/Pieces-Display-Module-SSD1306-Screen/dp/B08N6N8L5Q
 
 Stencil & Jig:
-- https://www.oshstencils.com/#invoice/f85fbdbab6d232adc4eabbb0beae4f31dd6d9d
+- https://www.oshstencils.com/#invoice/5585b4301f5fdfe7690882e8abfac3aeba5187
 
 
 License

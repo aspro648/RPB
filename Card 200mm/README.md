@@ -1,5 +1,5 @@
-Rapid Prototyping Board - 2.00mm Pitch Card
--------------------------------------------
+Rapid Prototyping Card - 2.00mm Pitch
+-------------------------------------
 
 ![Picture](project.png) 
 

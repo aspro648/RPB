@@ -1,4 +1,4 @@
-19269737089448658
+19254711319112406
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83027,20 +83027,6 @@ varistor SIOV
 2
 2
 footprints
-24LC32AT-E&slash_MC
-
-
-0
-9
-9
-footprints
-DFN-8-1EP_3x2mm
-8-Lead Plastic Dual Flat, No Lead Package (8MA2) - 2x3x0.6 mm Body [UDFN] (see Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf)
-DFN 0.5
-0
-13
-9
-footprints
 Jumper
 
 
@@ -83096,13 +83082,6 @@ MEC8-113-CARD_2
 0
 26
 26
-footprints
-MEC8-113-CARD_2outline
-
-
-0
-0
-0
 footprints
 MEC8_card
 0.8mm RIGHT ANGLE EDGE CARD ASSEMBLY.
@@ -83195,6 +83174,13 @@ resistor 1206
 2
 2
 footprints
+Resonator_SMD_CTSC_1.3mmx3.2mm
+SMD Resomator/Filter Murata TPSKA, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf, hand-soldering, 7.9x3.8mm^2 package
+SMD SMT ceramic resonator filter filter hand-soldering
+0
+3
+3
+footprints
 SAMTEC_MEC6-110-02-L-D-RA1-TR
 
 
@@ -83215,52 +83201,3 @@ SAMTEC_MEC8-113-TOP-BOTTOM
 0
 26
 26
-footprints
-TestPoints_1x10_P1.25mm_Vertical
-Molex PicoBlade Connector System, 53047-1010, 10 Pins per row (http://www.molex.com/pdm_docs/sd/530470610_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade side entry
-0
-10
-10
-footprints
-test_pads_125mm_x03
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
-0
-3
-3
-footprints
-test_pads_125mm_x04
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
-0
-4
-4
-footprints
-test_pads_125mm_x05
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
-0
-5
-5
-footprints
-test_pads_125mm_x06
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
-0
-6
-6
-footprints
-test_pads_125mm_x08
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
-0
-8
-8
-footprints
-test_pads_125mm_x10
-Harwin Gecko Connector, 6 pins, dual row female, vertical entry, PN:G125-FVX0605L0X
-connector harwin gecko
-0
-10
-10

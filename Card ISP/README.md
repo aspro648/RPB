@@ -1,4 +1,4 @@
-Rapid Prototyping Board - ArduinoISP Card
+Rapid Prototyping Card - ArduinoISP
 ---------------------------------------
 ![Picture](project.png) 
 
@@ -15,11 +15,11 @@ What is it?
 Bill Of Materials
 ----------------
   
-- 1 ea., Perfect Purple PCB from OSH Park, with not so perfect layout from kicad.pcb file.
+- 1 ea., Perfect Purple PCB from OSH Park, https://oshpark.com/shared_projects/yUt0KZ6C
 - 2 ea., C1 CAP CER 10UF 10V X5R 0805, Kemet C0805C106K8PAC7800, https://www.digikey.com/short/32v75tfv
 - 2 ea., SMD LED GREEN 0603, Lite-On LTST-C191KGKT, https://www.digikey.com/short/ptwhtwz2
-- 1 ea., SMD LED RED 0603,
-- 1 ea., SMD LED YELLOW 0603,
+- 1 ea., SMD LED RED 0603, Lite-On LTST-C191KRKT, https://www.digikey.com/short/1p9dvv1t
+- 1 ea., SMD LED YELLOW 0603, Lite-On LTST-C191KSKT, https://www.digikey.com/short/d20z9t1z
 - 1 ea., PTC RESET FUSE 20V 54MA 0805, Murata PRG21AR420MB1RA, https://www.digikey.com/short/2nmhrbvf
 - 4 ea., Resistor 1K OHM SMD 0603, Stackpole RNCP0603FTD1K00, https://www.digikey.com/short/704h9hfn
 - 1 ea., CONN IC DIP SOCKET 28POS TIN, On Shore ED281DT, https://www.digikey.com/short/d8nq4rd3
